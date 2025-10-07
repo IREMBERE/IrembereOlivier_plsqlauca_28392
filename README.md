@@ -37,7 +37,7 @@ FILE_NAME_CONVERT = (
   'C:\app\USER\oradata\ORCL\plsql_class2025db\'
 );
 
-![Pluggable DB](https://githubusercontent.com/IREMBERE/IrembereOlivier_plsqlauca_28392/blob/main/creatig%20pluggable%20database.png?raw=true)
+![Creating Pluggable Database](https://github.com/IREMBERE/IrembereOlivier_plsqlauca_28392/blob/main/creatig%20pluggable%20database.png?raw=true)
 
 ## TASK 2 CREATE AND DELETE A PDB 
 
