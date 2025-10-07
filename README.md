@@ -62,10 +62,19 @@ sql
 
 DROP PLUGGABLE DATABASE ol_to_delete_pdb_28392 INCLUDING DATAFILES;
 
+![Creating & Deleting Pluggable Database](https://github.com/IREMBERE/IrembereOlivier_plsqlauca_28392/blob/main/creating%20and%20deleting%20pluggable%20database.png?raw=true)
+
+
 ## TASK 3 ORACLE ENTERPRISE MANAGER
 In this task, we configured Oracle Enterprise Manager to monitor and manage our database environment.
 The goal was to access the OEM dashboard through a web interface and verify that all created databases were running successfully.
 
+![OEM Dashboard 1](https://github.com/IREMBERE/IrembereOlivier_plsqlauca_28392/blob/main/OEM%201.png?raw=true)
+
+![OEM Dashboard 2](https://github.com/IREMBERE/IrembereOlivier_plsqlauca_28392/blob/main/OEM%202.png?raw=true)
+
+
+![OEM Dashboard 3](https://github.com/IREMBERE/IrembereOlivier_plsqlauca_28392/blob/main/OEM%203.png?raw=true)
 
 
 ## NOTES AND REFLECTIONS
