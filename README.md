@@ -19,13 +19,17 @@ This project demonstrates how to **create, manage, and delete Pluggable Database
 
 ---
 
-## Task 1: Create a New Pluggable Database (PDB)
+## 🧩 Task 1: Create a New Pluggable Database (PDB)
 
-### ✅ SQL Command Used
+### This the SQL Command i Used
 ```sql
-CREATE PLUGGABLE DATABASE PLSQL_AUCA_28392DB 
-ADMIN USER IREMBERE IDENTIFIED BY kwiga 
+CREATE PLUGGABLE DATABASE plsql_class2025db 
+ADMIN USER olivier_plsqlauca_28392 IDENTIFIED BY Oracle123 
+ROLES = (DBA)
+DEFAULT TABLESPACE users 
+DATAFILE 'C:\app\USER\oradata\ORCL\plsql_class2025db\users01.dbf' 
+SIZE 250M AUTOEXTEND ON 
 FILE_NAME_CONVERT = (
-  'C:\app\USER\oradata\FREE\pdbseed',
-  'C:\App\oradata\oradata\FREE\PLSQL_AUCA_28392DB'
+  'C:\app\USER\oradata\ORCL\pdbseed\', 
+  'C:\app\USER\oradata\ORCL\plsql_class2025db\'
 );
