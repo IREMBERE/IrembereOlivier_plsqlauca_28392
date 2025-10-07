@@ -25,6 +25,7 @@ The goal was to understand how to define an admin user, assign roles, and use th
 
 ### This is  the SQL Command i Used
 sql
+
 CREATE PLUGGABLE DATABASE plsql_class2025db 
 ADMIN USER olivier_plsqlauca_28392 IDENTIFIED BY Oracle123 
 ROLES = (DBA)
@@ -44,6 +45,7 @@ It helped demonstrate how to manage PDB lifecycles — from creation using the C
 ### This is the SQL Cmmand line i used 
 
 sql
+
 CREATE PLUGGABLE DATABASE ol_to_delete_pdb_28392 
 ADMIN USER olivier_plsqlauca_28392 IDENTIFIED BY Oracle123 
 ROLES = (DBA) 
@@ -55,6 +57,7 @@ FILE_NAME_CONVERT = ('C:\app\USER\oradata\ORCL\pdbseed\', 'C:\app\USER\oradata\O
 
 ### this is the SQL command line i used 
 sql
+
 DROP PLUGGABLE DATABASE ol_to_delete_pdb_28392 INCLUDING DATAFILES;
 
 ## TASK 3 ORACLE ENTERPRISE MANAGER
